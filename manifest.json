@@ -6,6 +6,21 @@
   },
   "parameters": [
     {
+      "name":"cs_app_apiurl",
+      "type":"text",
+      "required": true
+    },
+    {
+      "name":"cs_app_apiuser",
+      "type":"text",
+      "required": true
+    },
+    {
+      "name":"cs_app_apipw",
+      "type":"text",
+      "required": true
+    },
+    {
       "name": "configuration",
       "type": "multiline",
       "required": true
