@@ -4,37 +4,39 @@
     "name": "Zendesk Services",
     "email": "services@zendesk.com"
   },
-
   "parameters": [
     {
       "name": "configuration",
       "type": "multiline",
       "required": true
     },
-	{
+    {
       "name": "email_address",
       "type": "text",
-	  "required": true
+      "required": true
     },
-	{
+    {
       "name": "order_id",
       "type": "text",
-	  "required": true
+      "required": true
     },
-	{
+    {
       "name": "deal_id",
       "type": "text",
-	  "required": true
+      "required": true
     },
-	{
+    {
       "name": "deal_option_id",
       "type": "text",
-	  "required": true
+      "required": true
     }
   ],
-
   "defaultLocale": "en",
   "private": true,
-  "location": [ "ticket_sidebar", "new_ticket_sidebar" ],
-  "frameworkVersion": "1.0"
+  "location": [
+    "ticket_sidebar",
+    "new_ticket_sidebar"
+  ],
+  "frameworkVersion": "1.0",
+  "version": "1.0.1"
 }
