@@ -6,18 +6,18 @@
   },
   "parameters": [
     {
-      "name":"cs_app_apiurl",
-      "type":"text",
+      "name": "cs_app_apiurl",
+      "type": "text",
       "required": true
     },
     {
-      "name":"cs_app_apiuser",
-      "type":"text",
+      "name": "cs_app_apiuser",
+      "type": "text",
       "required": true
     },
     {
-      "name":"cs_app_apipw",
-      "type":"text",
+      "name": "cs_app_apipw",
+      "type": "text",
       "required": true
     },
     {
@@ -53,5 +53,5 @@
     "new_ticket_sidebar"
   ],
   "frameworkVersion": "1.0",
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
