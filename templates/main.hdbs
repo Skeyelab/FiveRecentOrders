@@ -1,0 +1,25 @@
+<div class="customerhead">
+<div class="customername">
+Name | {{data.name}}<br>
+</div>
+<div class="customerinfo">
+City | {{data.city}}<br>
+Post Code | {{data.post_code}}<br>
+Phone Number | {{data.phone_number}}
+</div>
+</div>
+<div class="fiverecent">
+<a class="orderinfohead">[+] FIVE MOST RECENT ORDERS</a>
+</div>
+<div class="orderinfo">
+{{#each data.orders}}
+<div class="dealpurchased">Deal Purchased </div>{{deal_title}}<br>
+<button type="button" class="autofilloi" data-oi="{{order_id}}" data-di="{{deal_id}}" data-doi="{{deal_option_id}}">
+{{#each vouchers}}
+Redemption Code: {{security_code}}<br>Request ID: {{voucher_code}}<br>
+<hr>
+{{/each}}
+</button>
+<hr>
+{{/each}}
+</div>

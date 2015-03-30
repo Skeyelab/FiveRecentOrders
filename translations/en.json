@@ -1,0 +1,17 @@
+{
+  "app": {
+    "description":  "Play the famous zen tunes in your help desk.",
+    "name":         "Buddha Machine",
+    "parameters": {
+      "configuration": {
+        "helpText": "A valid JSON string. ie: { \"field_for_email_address\": 123456789, \"field_for_countries\": 123456789, \"country_mapping\": {\"country_denmark\" : \"DK\", \"country_sweden\" : \"SE\", \"country_norway\" : \"NO\", \"country_finland\" : \"FI\"}}"
+      },
+	  "email_address": {
+        "helpText": "The Registered Email Address Field ID"
+      },
+	  "security_code": {
+        "helpText": "The Security Code Field ID"
+      }
+    }
+  }
+}
