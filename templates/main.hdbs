@@ -14,9 +14,10 @@ Phone Number | {{data.phone_number}}
 <div class="orderinfo">
 {{#each data.orders}}
 <div class="dealpurchased">Deal Purchased </div>{{deal_title}}<br>
-<button type="button" class="autofilloi" data-oi="{{order_id}}" data-di="{{deal_id}}" data-doi="{{deal_option_id}}">
+<button type="button" class="autofilloi" data-oi="{{order_id}}" data-di="{{deal_id}}" data-doi="{{deal_option_id}}" data-si="{{vouchers.[0].security_code}}">
 {{#each vouchers}}
 Redemption Code: {{security_code}}<br>Request ID: {{voucher_code}}<br>
+
 <hr>
 {{/each}}
 </button>

@@ -4,48 +4,43 @@
     "name": "Zendesk Services",
     "email": "services@zendesk.com"
   },
-  "parameters": [
-    {
-      "name": "cs_app_apiurl",
-      "type": "text",
-      "required": true
-    },
-    {
-      "name": "cs_app_apiuser",
-      "type": "text",
-      "required": true
-    },
-    {
-      "name": "cs_app_apipw",
-      "type": "text",
-      "required": true
-    },
-    {
-      "name": "configuration",
-      "type": "multiline",
-      "required": true
-    },
-    {
-      "name": "email_address",
-      "type": "text",
-      "required": true
-    },
-    {
-      "name": "order_id",
-      "type": "text",
-      "required": true
-    },
-    {
-      "name": "deal_id",
-      "type": "text",
-      "required": true
-    },
-    {
-      "name": "deal_option_id",
-      "type": "text",
-      "required": true
-    }
-  ],
+  "parameters": [{
+    "name": "cs_app_apiurl",
+    "type": "text",
+    "required": true
+  }, {
+    "name": "cs_app_apiuser",
+    "type": "text",
+    "required": true
+  }, {
+    "name": "cs_app_apipw",
+    "type": "text",
+    "required": true
+  }, {
+    "name": "configuration",
+    "type": "multiline",
+    "required": true
+  }, {
+    "name": "email_address",
+    "type": "text",
+    "required": true
+  }, {
+    "name": "order_id",
+    "type": "text",
+    "required": true
+  }, {
+    "name": "deal_id",
+    "type": "text",
+    "required": true
+  }, {
+  "name": "support_id",
+    "type": "text",
+    "required": true
+  }, {
+    "name": "deal_option_id",
+    "type": "text",
+    "required": true
+  }],
   "defaultLocale": "en",
   "private": true,
   "location": [
@@ -53,5 +48,5 @@
     "new_ticket_sidebar"
   ],
   "frameworkVersion": "1.0",
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
